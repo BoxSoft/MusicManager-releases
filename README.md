@@ -49,11 +49,14 @@ Typical things it handles:
 
 - Inconsistent capitalization across track titles, with a learnable "keep these as-is" allowlist
 - Straight quotes / curly quotes / verbose classical naming
-- Album folders that have drifted from the album-artist subfolder they belong under
+- Track-numbering problems — missing numbers, gaps, or duplicates — with one-click renumbering
+- Missing or inconsistent tags (genre, year, album name, composer) across an album
+- Album folders that have drifted from the album-artist subfolder they belong under, or folder names that need tidying (stray leading articles, `[YYYY]` prefixes)
 - Duplicates: same album imported twice, scattered across artist folders, or sharing a tag with a different folder
+- A proactive **Cleanup scan** that flags every problem type across the library, with per-problem filters to work through them and per-album exemptions to silence the false positives
 - An "Intake → fix → move to Library" workflow that keeps fresh rips and downloads out of the canonical collection until you've verified them
 - ReplayGain tagging via `rsgain`
-- Auto-lookup of album art and metadata from common sources
+- Auto-lookup of album art and metadata from common sources (AllMusic, Amazon, Bandcamp)
 
 Supported audio file extensions: `.flac`, `.mp3`, `.wav`, `.m4a`, `.m4b`, `.m4p`, `.aac`, `.ogg`, `.oga`, `.opus`, `.aif`, `.aiff`, `.wma`, `.ape`, `.wv`, `.dsf`, `.dff` (DSD is read-only).
 
