@@ -56,9 +56,9 @@ Typical things it handles:
 - A proactive **Cleanup scan** that flags every problem type across the library, with per-problem filters to work through them and per-album exemptions to silence the false positives
 - An "Intake → fix → move to Library" workflow that keeps fresh rips and downloads out of the canonical collection until you've verified them
 - ReplayGain tagging via `rsgain`
-- Auto-lookup of album art and metadata from common sources (AllMusic, Amazon, Bandcamp)
+- Auto-lookup of album art and metadata from common sources (AllMusic, MusicBrainz, Discogs, iTunes, Amazon, Bandcamp)
 
-Supported audio file extensions: `.flac`, `.mp3`, `.wav`, `.m4a`, `.m4b`, `.m4p`, `.aac`, `.ogg`, `.oga`, `.opus`, `.aif`, `.aiff`, `.wma`, `.ape`, `.wv`, `.dsf`, `.dff` (DSD is read-only).
+Supported audio file extensions: `.flac`, `.mp3`, `.wav`, `.m4a`, `.m4b`, `.m4p`, `.aac`, `.ogg`, `.oga`, `.opus`, `.aif`, `.aiff`, `.wma`, `.ape`, `.wv`, `.dsf`, `.dff`.
 
 ---
 
